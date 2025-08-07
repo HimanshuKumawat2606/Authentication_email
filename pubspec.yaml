@@ -1,0 +1,19 @@
+name: email_auth_flutter
+
+description: A Flutter app for e-mail authentication (Android only)
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.30.0
+  firebase_auth: ^4.17.0
+
+flutter:
+  uses-material-design: true
